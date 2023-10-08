@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Crédito Fiscal</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Factura con Crédito Fiscal</h2>
+    <form method="POST">
+        <div class="form-group">
+            <label for="nombre_cliente">Nombre del Cliente:</label>
+            <input type="text" class="form-control" id="nombre_cliente" name="nombre_cliente" required>
+        </div>
+        <div class="form-group">
+            <label for="nit_cliente">NIT del Cliente:</label>
+            <input type="text" class="form-control" id="nit_cliente" name="nit_cliente" required>
+        </div>
+        <div class="form-group">
+            <label for="descripcion_producto">Descripción del Producto:</label>
+            <input type="text" class="form-control" id="descripcion_producto" name="descripcion_producto" required>
+        </div>
+        <div class="form-group">
+            <label for="precio_producto">Precio del Producto:</label>
+            <input type="number" class="form-control" id="precio_producto" name="precio_producto" required>
+        </div>
+        <div class="form-group">
+            <label for="numero_factura">Número de Factura:</label>
+            <input type="text" class="form-control" id="numero_factura" name="numero_factura" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Generar Factura</button>
+    </form>
+</div>
+
+</body>
+</html>
